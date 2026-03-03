@@ -9,7 +9,6 @@
 
   @media (max-width: 960px) {
     padding: var(--space-64) 0 var(--space-16);
-    margin: 0;
   }
 }
 
