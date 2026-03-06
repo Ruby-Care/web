@@ -1,5 +1,5 @@
 .section {
-  padding: var(--space-128) 0 var(--space-128);
+  padding: var(--space-128) var(--space-128);
   margin: 0 var(--space-32);
 
   /* @media (max-width: 1140px) {
@@ -8,7 +8,7 @@
   } */
 
   @media (max-width: 960px) {
-    padding: var(--space-64) 0 var(--space-16);
+    padding: var(--space-64) var(--space-16);
     margin: 0;
   }
 }
