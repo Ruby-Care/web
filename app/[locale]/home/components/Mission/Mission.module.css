@@ -7,11 +7,14 @@
   background-position: center;
   background-size: cover;
 
+  @media (min-width: 1441px) {
+    width: calc(100% - 4);
+  }
+
   @media (max-width: 1440px) {
     padding: var(--space-64) var(--space-32) var(--space-64) var(--space-32);
     margin: var(--space-64) var(--space-32);
     margin-bottom: 0;
-  
   }
 
   @media (max-width: 960px) {
@@ -25,6 +28,11 @@
 .inner {
   display: flex;
   justify-content: flex-start;
+
+  @media (max-width: 960px) {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 .content {

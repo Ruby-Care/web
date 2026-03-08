@@ -300,9 +300,14 @@
         "description": "Ruby zbiera i porządkuje kluczowe informacje o pacjencie z wyprzedzeniem, abyś mógł rozpocząć pracę z jasnym obrazem sytuacji.",
         "imageAlt": "Podgląd ustrukturyzowanego wywiadu"
       },
+      "scribeSessionNotes": {
+        "title": "Scribe i notatki z sesji",
+        "description": "Skup się na rozmowie. Scribe i notatki z sesji wideo sprawiają, że nic ważnego z Twojej sesji nie umknie, zapisując kluczowe wnioski, rekomendacje i kolejne kroki omówione podczas połączenia.",
+        "imageAlt": "Podgląd Scribe i notatek z sesji"
+      },
       "plusMore": {
         "title": "I wiele więcej",
-        "description": "Wszystkie funkcje łączą się w jedno środowisko pracy. Ruby porządkuje informacje, utrzymuje kontekst i zmniejsza obciążenie codziennej koordynacji.",
+        "description": "Ruby przenosi cały przebieg opieki do jednego, płynnie działającego środowiska. Specjaliści mogą synchronizować swoją dostępność dzięki integracji kalendarza, jednocześnie prowadząc ścieżkę każdego pacjenta w przejrzysty i uporządkowany sposób. Wizyty można planować bez wysiłku i prowadzić je przez wbudowaną telemedycynę, co ułatwia pozostanie w kontakcie niezależnie od miejsca, w którym przebywają pacjenci. W międzyczasie raporty, plany i ważne dokumenty można udostępniać natychmiast, dzięki czemu wszyscy zaangażowani zawsze mają potrzebne informacje.",
         "imageAlt": "Podgląd dodatkowych funkcji"
       },
       "supportPlan": {
@@ -312,7 +317,7 @@
       },
       "careMonitoring": {
         "title": "Monitorowanie opieki",
-        "description": "Rekonwalescencja trwa w domu dzięki interfejsowi dla pacjenta, zaprojektowanemu do umawiania kolejnych wizyt z Tobą, śledzenia postępów oraz raportowania objawów.",
+        "description": "Powrót do zdrowia trwa także poza sesją dzięki interfejsowi dla pacjenta zaprojektowanemu tak, aby wspierać pacjentów w domu. Umożliwia on realizację spersonalizowanego planu, śledzenie postępów w czasie oraz zgłaszanie objawów lub zmian samopoczucia.",
         "imageAlt": "Podgląd monitorowania opieki"
       }
     }

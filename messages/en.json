@@ -301,9 +301,14 @@
         "description": "Turn patient onboarding into a structured intake. Ruby gathers and organizes information upfront using natural language, so you start informed, and prepared.",
         "imageAlt": "Structured intake preview"
       },
+      "scribeSessionNotes": {
+        "title": "Scribe and Session Notes",
+        "description": "Stay focused on the conversation. The Scribe and Video Session Notes ensure that nothing important from your session gets lost, capturing key insights, recommendations, and next steps discussed during the call.",
+        "imageAlt": "Scribe and session notes preview"
+      },
       "plusMore": {
         "title": "Plus, a lot more",
-        "description": "All features work together as one shared workspace. Ruby structures information, preserves context over time, and reduces day-to-day coordination overhead.",
+        "description": "Ruby brings the entire care workflow into one seamless environment. Specialists can keep their availability synced through calendar integration while managing each patient's journey in a clear, structured way. Sessions can be scheduled effortlessly and conducted through built-in telemedicine, making it easy to stay connected no matter where patients are. Along the way, reports, plans, and important documents can be shared instantly, ensuring everyone involved always has the information they need.",
         "imageAlt": "Additional features preview"
       },
       "supportPlan": {
@@ -313,7 +318,7 @@
       },
       "careMonitoring": {
         "title": "Care Monitoring",
-        "description": "Recovery continues at home through a patient-facing interface designed for follow-up, progress tracking, and symptom reporting.",
+        "description": "Recovery continues beyond the session through a patient-facing interface designed to support patients at home. It allows them to follow their personalized plan, track progress over time, and report symptoms or changes in how they feel.",
         "imageAlt": "Care monitoring preview"
       }
     }

@@ -301,9 +301,14 @@
         "description": "Die Erstaufnahme von Patienten erfolgt strukturiert und mit einem klaren Überblick. Ruby sammelt und ordnet relevante Informationen im Vorfeld, damit Sie informiert und vorbereitet starten.",
         "imageAlt": "Vorschau der strukturierten Aufnahme"
       },
+      "scribeSessionNotes": {
+        "title": "Scribe und Sitzungsnotizen",
+        "description": "Bleiben Sie im Gespräch präsent. Scribe und Video-Sitzungsnotizen sorgen dafür, dass nichts Wichtiges aus Ihrer Sitzung verloren geht, indem zentrale Erkenntnisse, Empfehlungen und nächste Schritte aus dem Gespräch festgehalten werden.",
+        "imageAlt": "Vorschau von Scribe und Sitzungsnotizen"
+      },
       "plusMore": {
         "title": "Und noch mehr",
-        "description": "Alle Funktionen greifen ineinander und bilden eine gemeinsame Arbeitsgrundlage. Ruby strukturiert Informationen, hält den Kontext über Zeit hinweg und reduziert den Koordinationsaufwand im Praxisalltag.",
+        "description": "Ruby bringt den gesamten Versorgungsablauf in eine nahtlose Umgebung. Spezialisten können ihre Verfügbarkeit per Kalenderintegration synchron halten und gleichzeitig den Weg jedes Patienten klar und strukturiert steuern. Sitzungen lassen sich mühelos planen und über integrierte Telemedizin durchführen, sodass der Kontakt unabhängig vom Aufenthaltsort der Patienten bestehen bleibt. Berichte, Pläne und wichtige Dokumente können dabei sofort geteilt werden, damit alle Beteiligten jederzeit die Informationen haben, die sie benötigen.",
         "imageAlt": "Vorschau weiterer Funktionen"
       },
       "supportPlan": {
@@ -313,7 +318,7 @@
       },
       "careMonitoring": {
         "title": "Verlaufsmonitoring",
-        "description": "Die Genesung setzt sich zu Hause fort – über eine Patientenoberfläche für Follow-ups, Fortschrittsverfolgung und Symptom-Reporting.",
+        "description": "Die Genesung setzt sich auch nach der Sitzung über eine Patientenoberfläche fort, die darauf ausgelegt ist, Patienten zu Hause zu unterstützen. Sie ermöglicht es ihnen, ihrem personalisierten Plan zu folgen, ihren Fortschritt im Zeitverlauf zu verfolgen und Symptome oder Veränderungen ihres Befindens zu melden.",
         "imageAlt": "Vorschau des Verlaufsmonitorings"
       }
     }

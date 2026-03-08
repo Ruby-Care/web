@@ -3,12 +3,12 @@ import styles from './Features.module.css';
 import { FeaturesTicker } from './FeaturesTicker.client';
 
 const tickerImages = [
-  '/img/ticker/Frame 1291.svg',
-  '/img/ticker/Frame 1347.svg',
-  '/img/ticker/Frame 1348.svg',
-  '/img/ticker/Frame 1349.svg',
-  '/img/ticker/Frame 1350.svg',
-  '/img/ticker/Frame 1351.svg',
+  '/img/ticker/calendar-integration.svg',
+  '/img/ticker/patient-management.svg',
+  '/img/ticker/session-scheduiling.svg',
+  '/img/ticker/tele-medicine.svg',
+  // '/img/ticker/ai-session-notes.svg',
+  '/img/ticker/file-sharing.svg',
 ];
 
 export async function Features() {
@@ -41,18 +41,19 @@ export async function Features() {
               </p>
             </article>
             <article className={`${styles.tile} ${styles.stretched}`}>
-              <h3 className={`${styles.tileTitle} type-title`}>{t('tiles.plusMore.title')}</h3>
-              <div className={styles.ticker}>
-                {/* <div
-                  className={`${styles.image} ${styles.imageAllFeatures}`}
+              <h3 className={`${styles.tileTitle} type-title`}>
+                {t('tiles.scribeSessionNotes.title')}
+              </h3>
+              <div className={styles.media}>
+                <div
+                  className={`${styles.image} ${styles.imageNotes}`}
                   role="presentation"
                   aria-hidden="true"
-                /> */}
-                <FeaturesTicker items={tickerItems} />
-                <span className={styles.srOnly}>{t('tiles.plusMore.imageAlt')}</span>
+                />
+                <span className={styles.srOnly}>{t('tiles.scribeSessionNotes.imageAlt')}</span>
               </div>
               <p className={`${styles.tileDescription} type-body-regular`}>
-                {t('tiles.plusMore.description')}
+                {t('tiles.scribeSessionNotes.description')}
               </p>
             </article>
           </div>
@@ -83,6 +84,18 @@ export async function Features() {
               </div>
               <p className={`${styles.tileDescription} type-body-regular`}>
                 {t('tiles.careMonitoring.description')}
+              </p>
+            </article>
+          </div>
+          <div className={styles.row}>
+            <article className={`${styles.tile} ${styles.stretched}`}>
+              <h3 className={`${styles.tileTitle} type-title`}>{t('tiles.plusMore.title')}</h3>
+              <div className={styles.ticker}>
+                <FeaturesTicker items={tickerItems} />
+                <span className={styles.srOnly}>{t('tiles.plusMore.imageAlt')}</span>
+              </div>
+              <p className={`${styles.tileDescription} type-body-regular`}>
+                {t('tiles.plusMore.description')}
               </p>
             </article>
           </div>
